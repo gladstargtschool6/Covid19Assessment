@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "build": "babel src -d lib",
-    "test": "jest"
+    "test": "jest",
     "lint": "eslint ./src/"
   },
   "dependencies": {
