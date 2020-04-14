@@ -5,6 +5,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
     "lint": "eslint ./src/"
   },
   "dependencies": {
