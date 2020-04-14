@@ -29,5 +29,10 @@ function calculator(){
             infectionsByRequestedTime : result = currentlyInfected * y; 
             
         break;
-
-    }
+            
+            severeCasesByRequestedTime : result = 0.15 * infectionsByRequestedTime;
+            
+        break;
+            
+            hospitalBedsByRequestedTime : result = 0.35 * totalHospitalBeds;
+  }
