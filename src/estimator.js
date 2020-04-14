@@ -28,7 +28,7 @@ function calculator(){
             
         break;
             
-            infectionsByRequestedTime : result = currentlyInfected * y; 
+            infectionsByRequestedTime : result = impact.currentlyInfected * y; 
             
         break;
             
