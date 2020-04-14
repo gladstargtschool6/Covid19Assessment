@@ -6,6 +6,8 @@ function calculator(){
   
         var reportedCases = Number(document.getElementById("reportedCases").value);
   
+        var currentlyInfected = Number(document.getElementById("currentlyInfected").value);
+  
         var days = Number(document.getElementById("days").value); 
   
         var totalHospitalBeds = Number(document.getElementById('totalHospitalBeds').value);
