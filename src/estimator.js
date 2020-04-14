@@ -20,7 +20,8 @@ function calculator(){
   
         switch(calc){
             
-            impact.currentlyInfected : result = reportedCases * 10;
+
+            currentlyInfected : result = reportedCases * 10;
             
         break;
             
@@ -32,7 +33,7 @@ function calculator(){
             
         break;
             
-            severeCasesByRequestedTime : result = 0.15 * infectionsByRequestedTime;
+            severeCasesByRequestedTime : reslt = 0.15 * infectionsByRequestedTime;
             
         break;
             
